@@ -3,16 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Embed fnfmod.online</title>
+  <title>FNF MOD Online</title>
+  <link rel="icon" href="https://fnfmod.online/favicon.ico" type="image/x-icon" />
   <style>
-    body, html {
-      margin: 0; padding: 0; height: 100%;
+    /* Remove all margin/padding, make full viewport */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
       overflow: hidden;
+      background: black; /* optional to avoid any background flicker */
     }
     iframe {
-      border: none;
+      border: none; /* no border */
+      display: block; /* remove inline spacing */
       width: 100vw;
       height: 100vh;
+      margin: 0;
+      padding: 0;
     }
   </style>
 </head>
